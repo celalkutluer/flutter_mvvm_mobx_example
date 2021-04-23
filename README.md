@@ -2,5 +2,5 @@
 
 MVVM ve MOBX kullanımı
 
-![](/project_readme_image/view.gif?)
+![](https://raw.githubusercontent.com/celalkutluer/flutter_mvvm_mobx_example/master/project_readme_image/view.gif)
 ![Alt text](/project_readme_image/service_json.jpg?raw=true "Servis")
