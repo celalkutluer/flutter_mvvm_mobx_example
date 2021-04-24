@@ -1,4 +1,4 @@
-import '../../../core/base/base_functions.dart';
+//import '../../../core/base/base_functions.dart';
 
 class PersonelModel {
   String? id;
@@ -8,9 +8,9 @@ class PersonelModel {
   PersonelModel({this.id, this.perTc, this.perAdSoyad});
 
   PersonelModel.fromJson(Map<String, dynamic> json) {
-    id = base64Decode(json['id']);
-    perTc = base64Decode(json['per_tc']);
-    perAdSoyad = base64Decode(json['per_ad_soyad']);
+    id = (json['id']);
+    perTc = (json['per_tc']);
+    perAdSoyad = (json['per_ad_soyad']);
   }
 
   Map<String, dynamic> toJson() {
