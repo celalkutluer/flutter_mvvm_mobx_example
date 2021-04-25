@@ -23,7 +23,7 @@ abstract class _PersonelViewModelBase with Store {
     pageState = PageState.LOADING;
 
     try {
-      final response = await Dio().get(BASE_URL);
+      final response = await Dio().get(ApplicationConstants.BASE_URL);
       if (response.statusCode == HttpStatus.ok) {
         final responseData = response.data as List;
         modelList = responseData.map((e) => PersonelModel.fromJson(e)).toList();
